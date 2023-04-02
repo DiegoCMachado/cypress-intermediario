@@ -18,7 +18,6 @@ Cypress.Commands.add('login', (
     if (cacheSession) {
       cy.session(user, login, options)
     } else {
-
       login()
     }
   })
